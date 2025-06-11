@@ -14,16 +14,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  soultrading,
+  nextjs,
+  angular,
 } from "../assets";
 
 export const navLinks = [
@@ -106,12 +103,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "angular",
+    icon: angular,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "nextjs",
+    icon: nextjs,
   },
 ];
 
@@ -145,7 +142,7 @@ const experiences = [
   {
     title: "React.js Web Developer",
     company_name: "Soul Trading LLC",
-    icon: shopify,
+    icon: soultrading,
     iconBg: "#383E56",
     date: "Aug 2023 - Present",
     points: [
